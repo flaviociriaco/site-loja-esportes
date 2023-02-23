@@ -7,7 +7,8 @@
 
 :root {
   --color-white: #ffffff;
-  --color-darkgreen: #255a29;
+  --color-red: #e63636;
+  --color-darkred: #7d0e06;
   --color-gray: #c9cccd;
   --color-yelow: #ffff00;
   --color-dark1: #181818;
@@ -16,32 +17,29 @@
 }
 
 header {
-  height: 140px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header1 {
-  height: 60%;
+  height: 3.4rem;
   width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  background-color: var(--color-darkred);
 }
 
 .logo {
   width: 200px;
   text-align: center;
-  background-color: #ffff00;
+  background-color: #b9d616;
 }
 
 .menu1 {
   display: flex;
   align-items: center;
-}
-
-.header1 .menu1 {
-  display: flex;
-  flex: 1;
-  justify-content: center;
 }
 
 .menu1 nav {
@@ -60,36 +58,70 @@ header {
 }
 
 .menu1 .cadastro {
-    background-color: var(--color-white);
+  background-color: var(--color-white);
   width: 100px;
   height: 50px;
   border: none;
 }
 
 .header2 {
-    background-color: var(--color-darkgreen);
-    width: 1200px;
-    height: 45%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+  background-color: var(--color-red);
+  width: 1200px;
+  height: 3.7rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .menu-bar ul {
-    width: 1200px;
-    height: 45%;
-    display: flex;
-    justify-content: space-around;
-    
+  width: 1200px;
+  height: 45%;
+  display: flex;
+  justify-content: space-around;
 }
 
-.menu-bar  a {
-    color: var(--color-white);
-    
-    text-decoration: none;
+.menu-bar a {
+  color: var(--color-white);
+  text-decoration: none;
 }
 
 .menu-bar ul,
 .menu-bar li {
-    list-style: none;
+  list-style: none;
+}
+
+.slider {
+  flex: 1;
+  overflow: hidden;
+}
+
+.slider--width {
+  height: 100%;
+  display: flex;
+  transition: all ease 0.3s;
+}
+
+.slider--item {
+  width: 100vw;
+  height: inherit;
+  background-position: center ;
+  background-size: cover;
+}
+
+.slider--controls {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider--control {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-yelow);
+  overflow: hidden;
+  cursor: pointer;
 }
