@@ -2,17 +2,17 @@
 
 Tarefas:
 
--( )Colocar acima do menu:
--( )Logo
--( )Campo de busca de produtos na página
--( )Campo de entrar e cadastrar
+-(X)Colocar acima do menu:
+-(X)Logo
+-(X)Campo de busca de produtos na página
+-(X)Campo de entrar e cadastrar
 
 -( )Carrinho de compras
 -( )Menu:
 -( )Menu dropdown
 -( )Menu Hamburguer
 
--( )Banner abaixo do menu
+-(X)slide
 
 -( )Fotos dos produtos com preço
 -( )Rodapé

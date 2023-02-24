@@ -31,10 +31,23 @@ header {
   background-color: var(--color-darkred);
 }
 
-.logo {
-  width: 200px;
-  text-align: center;
-  background-color: #b9d616;
+.logo img {
+  width: 60px;
+}
+
+.search {
+  display: flex;
+  background-color: var(--color-white);
+  width: 660px;
+  height: 30px;
+  border-radius: 20px;
+ margin-left: 70px;
+}
+
+.search span {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
 }
 
 .menu1 {
@@ -49,19 +62,32 @@ header {
   align-items: center;
 }
 
-.menu1 #busca {
-  width: 600px;
-  height: 40px;
-  padding: 10px;
+#busca {
+  background-color: transparent;
+  width: 615px;
+  height: 30px;
   border-radius: 40px;
-  margin-left: 105px;
+  margin-left: 10px;
+  border: none;
 }
 
-.menu1 .cadastro {
-  background-color: var(--color-white);
+ .cadastro {
+  background-color: transparent;
   width: 100px;
   height: 50px;
+  color: var(--color-yelow);
+  font-size: 15px;
   border: none;
+  cursor: pointer;
+  }
+
+.cart {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: var(--color-yelow);
+  cursor: pointer;
 }
 
 .header2 {
@@ -83,11 +109,17 @@ header {
 .menu-bar a {
   color: var(--color-white);
   text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .menu-bar ul,
 .menu-bar li {
   list-style: none;
+}
+
+.menu-bar a:hover {
+  border-bottom: 3px solid #ffff00;
 }
 
 .slider {
@@ -102,10 +134,11 @@ header {
 }
 
 .slider--item {
+  margin-top: 40px;
   width: 100vw;
-  height: inherit;
   background-position: center ;
   background-size: cover;
+  height: 700px;
 }
 
 .slider--controls {

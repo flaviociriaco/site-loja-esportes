@@ -9,7 +9,7 @@ document.querySelector(".slider--controls").style.height = `${
 }px`;
 
 function goPrev() {
-    currentSlide--
+  currentSlide--;
   if (currentSlide < 0) {
     currentSlide = totalSlides - 1;
   }
@@ -17,7 +17,7 @@ function goPrev() {
 }
 
 function goNext() {
-    currentSlide++
+  currentSlide++;
   if (currentSlide > totalSlides - 1) {
     currentSlide = 0;
   }
@@ -29,3 +29,4 @@ function updateMargin() {
   document.querySelector(".slider--width").style.marginLeft = `-${newMargin}px`;
 }
 
+// setInterval(goNext, 2000);
