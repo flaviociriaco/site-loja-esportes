@@ -23,11 +23,11 @@ header {
 
 .header1 {
   height: 3.4rem;
-  width: 1200px;
-  margin: 0 auto;
+  width: 100vw;
   display: flex;
   align-items: center;
   background-color: var(--color-darkred);
+  justify-content: center;
 }
 
 .logo img {
@@ -54,11 +54,24 @@ header {
   align-items: center;
 }
 
+.menu1 a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+.menu1 a:hover {
+  color: var(--color-white);
+}
+
 .menu1 nav {
   width: 1000px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  border: none;
 }
 
 #busca {
@@ -67,6 +80,10 @@ header {
   height: 30px;
   border-radius: 40px;
   margin-left: 10px;
+  border: none;
+}
+
+input {
   border: none;
 }
 
@@ -91,9 +108,9 @@ header {
 
 .header2 {
   background-color: var(--color-red);
-  width: 1200px;
+  width: 100vw;
   height: 3.7rem;
-  margin: 0 auto;
+  justify-content: center;
   display: flex;
   align-items: center;
 }
@@ -123,7 +140,7 @@ header {
 
 .slides img {
   width: 1100px;
-  height: 600px;
+  height: 630px;
 }
 
 .slider {
@@ -164,8 +181,7 @@ header {
   transition: 1s;
 }
 
-
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -173,19 +189,18 @@ header {
   background-color: var(--color-yelow);
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked ~ .first {
   margin-left: -25%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked ~ .first {
   margin-left: -50%;
 }
 
-#radio4:checked ~ .first{
+#radio4:checked ~ .first {
   margin-left: -75%;
 }
-
