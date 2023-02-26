@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 400px;
+    width: 400px;
+    background-color: #e63636;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
