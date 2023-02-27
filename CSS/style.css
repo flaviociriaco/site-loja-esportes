@@ -237,6 +237,7 @@ input {
 
 .racket p {
   font-size: 15px;
+  font-weight: bold;
   margin-bottom: 25px;
   color: var(--color-dark2);
 }
@@ -247,4 +248,56 @@ input {
   padding: 10px;
   margin-bottom: 15px;
   color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+/* Responsividade */
+
+@media screen and ( max-width: 480px ) {
+
+
+
+  .menu1 {
+    display: none;
+  }
+
+  .menu2 {
+    display: none;
+  }
+
+  .slider {
+    width: 100vw;
+    height: 370px;
+    overflow: hidden;
+  }
+
+.slides img {
+  width: 100vw;
+  height: 300px;
+}
+
+.manual-navigation {
+  width: 100vw;
+  margin-top: -260px;
+}
+
+.card-racket {
+  background-color: var(--color-red);
+  height: 300px;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+
+.racket img {
+  width: 110px;
+  height: 130px;
+}
+
 }
