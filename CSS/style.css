@@ -33,23 +33,23 @@ header {
 .logo {
   background-color: #e63636;
   color: var(--color-yelow);
-  padding: 5px;
+  padding: 0.3em;
   text-align: center;
 }
 
 .search {
   display: flex;
   background-color: var(--color-white);
-  width: 660px;
-  height: 30px;
-  border-radius: 20px;
-  margin-left: 70px;
+  width: 41em;
+  height: 2em;
+  border-radius: 1.2em;
+  margin-left: 4.3em;
 }
 
 .search span {
   display: flex;
   align-items: center;
-  margin-right: 5px;
+  margin-right: 0.3em;
 }
 
 .menu1 {
@@ -61,16 +61,20 @@ header {
   display: flex;
   text-decoration: none;
   align-items: center;
-  margin-left: 50px;
-  font-size: 15px;
+  margin-left: 3em;
+  font-size: 1em;
 }
 
 .menu1 a:hover {
-  color: var(--color-white);
+  border: 1px solid var(--color-white) ;
+}
+
+.cart:hover {
+  border: 1px solid var(--color-white) ;
 }
 
 .menu1 nav {
-  width: 1000px;
+  width: 62.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,10 +83,10 @@ header {
 
 #busca {
   background-color: transparent;
-  width: 615px;
-  height: 30px;
-  border-radius: 40px;
-  margin-left: 10px;
+  width: 46em;
+  height: 2.5em;
+  border-radius: 2.5em;
+  margin-left: 0.6em;
   border: none;
   outline: none;
 }
@@ -91,21 +95,22 @@ input {
   border: none;
 }
 
-.cadastro  {
+.register  {
   background-color: transparent;
-  width: 100px;
-  height: 50px;
+  width: 6.25em;
+  height: 3em;
   color: var(--color-yelow);
-  font-size: 15px;
+  font-size: 1em;
   border: none;
   cursor: pointer;
+  text-align: center;
 }
 
 .cart {
-  padding: 10px;
+  padding: 0.6em;
   border: none;
   background-color: transparent;
-  font-size: 15px;
+  font-size: 1em;
   color: var(--color-yelow);
   cursor: pointer;
 }
@@ -120,8 +125,7 @@ input {
 }
 
 .menu-bar ul {
-  width: 1200px;
-  height: 45%;
+  width: 75em;
   display: flex;
   justify-content: space-around;
 }
@@ -129,7 +133,7 @@ input {
 .menu-bar a {
   color: var(--color-white);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -143,20 +147,20 @@ input {
 }
 
 .slides img {
-  width: 1100px;
-  height: 630px;
+  width: 68em;
+  height: 40em;
 }
 
 .slider {
   margin: 0 auto;
-  width: 1100px;
-  height: 600px;
+  width: 68em;
+  height: 38em;
   overflow: hidden;
 }
 
 .slides {
   width: 400%;
-  height: 600px;
+  height: 38em;
   display: flex;
 }
 
@@ -171,22 +175,22 @@ input {
 
 .manual-navigation {
   position: absolute;
-  width: 1200px;
-  margin-top: -40px;
+  width: 75em;
+  margin-top: -2.5em;
   display: flex;
   justify-content: center;
 }
 
 .manual-btn {
   border: 2px solid var(--color-dark1);
-  padding: 5px;
+  padding: 0.3em;
   border-radius: 50%;
   cursor: pointer;
-  transition: 1s;
+  transition: 2s;
 }
 
 .manual-btn:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 2.5em;
 }
 
 .manual-btn:hover {
@@ -211,43 +215,43 @@ input {
 
 .card-racket {
   background-color: var(--color-red);
-  height: 600px;
+  height: 38em;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .racket {
-  height: 600pxpx;
-  width: 335px;
-  padding: px;
+  width: 20em;
+  padding: 1em;
   text-align: center;
 }
 
 .racket h5 {
-  font-size: 25px;
-  margin: 10px;
+  font-size: 1.5em;
+  margin: 0.7em;
 }
 
 .racket img {
   width: 100%;
-  height: 300px;
-  border: 2px solid #2fa524;
+  height: 18em;
+  border: 1px solid #2fa524;
 }
 
 .racket p {
-  font-size: 15px;
+  font-size: 1em;
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-bottom: 1.5em;
   color: var(--color-dark2);
 }
 
 .racket a {
   background-color: var(--color-green);
   text-decoration: none;
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 0.6em 1.5em;
+  margin-bottom: 1em;
   color: var(--color-white);
+  font-weight: bold;
 }
 
 
@@ -273,31 +277,35 @@ input {
 
   .slider {
     width: 100vw;
-    height: 370px;
+    height: 23em;
     overflow: hidden;
   }
 
 .slides img {
   width: 100vw;
-  height: 300px;
+  height: 18rem;
 }
 
 .manual-navigation {
   width: 100vw;
-  margin-top: -260px;
+  margin-top: -17rem;
 }
 
 .card-racket {
   background-color: var(--color-red);
-  height: 300px;
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
+  width: 100vw;
+  height: 19em;
+}
+
+.racket {
+  width: 100vw;
+  padding: 1px;
+  text-align: center;
 }
 
 .racket img {
-  width: 110px;
-  height: 130px;
+  width: 7em;
+  height: 8rem;
 }
 
 }
