@@ -37,12 +37,6 @@ header {
   text-align: center;
 }
 
-.logo-menu {
-  color: var(--color-white);
-  cursor: pointer;
-  display: none;
-}
-
 .search {
   display: flex;
   background-color: var(--color-white);
@@ -87,18 +81,14 @@ header {
   border: none;
 }
 
-#busca {
+.search-itens {
   background-color: transparent;
   width: 46rem;
-  height: 2.5rem;
+  height: 2.1rem;
   border-radius: 2.5rem;
   margin-left: 0.6rem;
   border: none;
   outline: none;
-}
-
-input {
-  border: none;
 }
 
 .register {
@@ -254,7 +244,7 @@ input {
   background-color: var(--color-green);
   text-decoration: none;
   padding: 0.6rem 1.5rem;
- 
+
   color: var(--color-white);
   font-weight: bold;
 }
@@ -294,7 +284,7 @@ input {
 
   .manual-navigation {
     width: 100vw;
-    margin-top: -16rem;
+    margin-top: -15rem;
   }
 
   .card-racket {
@@ -320,5 +310,4 @@ input {
     flex-direction: column;
     width: 100vw;
   }
-
 }
