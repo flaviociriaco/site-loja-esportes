@@ -130,7 +130,7 @@ input {
   align-items: center;
 }
 
-.menu-bar ul {
+.menu2 ul {
   width: 75rem;
   display: flex;
   justify-content: space-around;
@@ -227,35 +227,34 @@ input {
   align-items: center;
 }
 
-.racket {
+.itens {
   width: 20rem;
-  padding: 1rem;
   text-align: center;
 }
 
-.racket h5 {
-  font-size: 1.5rem;
-  margin: 0.7rem;
+.itens h5 {
+  font-size: 2rem;
+  margin: 1rem;
 }
 
-.racket img {
+.itens img {
   width: 100%;
   height: 18rem;
   border: 1px solid #2fa524;
 }
 
-.racket p {
+.itens p {
   font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   color: var(--color-dark2);
 }
 
-.racket a {
+.itens a {
   background-color: var(--color-green);
   text-decoration: none;
   padding: 0.6rem 1.5rem;
-  margin-bottom: 1rem;
+ 
   color: var(--color-white);
   font-weight: bold;
 }
@@ -268,9 +267,8 @@ input {
   align-items: center;
 }
 
-.menu-dropdown ul li a {
-  display: none;
-}
+
+
 
 /* Responsividade */
 
@@ -300,24 +298,27 @@ input {
   }
 
   .card-racket {
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-red);
     width: 100vw;
-    height: 19rem;
+    height: 83rem;
   }
 
-  .racket {
+  .itens {
     width: 100vw;
-    padding: 1px;
-    text-align: center;
   }
 
-  .racket img {
-    width: 7rem;
-    height: 8rem;
+  .itens img {
+    width: 100vw;
+    height: 17rem;
   }
 
   .card-ball {
-    height: 20rem;
+    height: 83rem;
+    display: flex;
+    flex-direction: column;
     width: 100vw;
   }
+
 }
