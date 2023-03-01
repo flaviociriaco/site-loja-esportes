@@ -31,7 +31,6 @@ header {
 }
 
 .logo {
-  background-color: #e63636;
   color: var(--color-yelow);
   padding: 0.3rem;
   text-align: center;
@@ -67,6 +66,10 @@ header {
 
 .menu1 a:hover {
   border: 1px solid var(--color-white);
+}
+
+.material-symbols-outlined {
+  display: none;
 }
 
 .cart:hover {
@@ -185,6 +188,10 @@ header {
   transition: 2s;
 }
 
+.material-symbols-outlined {
+  color: #ffff00;
+}
+
 .manual-btn:not(:last-child) {
   margin-right: 2.5rem;
 }
@@ -266,6 +273,17 @@ header {
   .menu1 {
     display: none;
   }
+
+  .material-symbols-outlined {
+    display: block;
+  }
+
+  .header1 {
+    display: flex;
+   padding-right: 1.8rem;
+    justify-content: space-around;
+  }
+  
 
   .menu2 {
     display: none;
