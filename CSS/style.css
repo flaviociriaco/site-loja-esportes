@@ -16,14 +16,6 @@
   --color-green: #2fa524;
 }
 
-#acess {
-  display: none;
-}
-
-#acess:hover {
-  display: block;
-}
-
 header {
   display: flex;
   flex-direction: column;
