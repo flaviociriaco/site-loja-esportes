@@ -15,7 +15,7 @@
   --color-green: #2fa524;
 }
 
-.header1 {
+.menu-1 {
   height: 3.4rem;
   width: 100vw;
   display: flex;
@@ -55,12 +55,12 @@ input {
   margin-right: 0.3rem;
 }
 
-.menu1 {
+.top-menu {
   display: flex;
   align-items: center;
 }
 
-.menu1 a {
+.top-menu a {
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -68,12 +68,12 @@ input {
   font-size: 1rem;
 }
 
-.menu1 a:hover {
+.top-menu a:hover {
   color: var(--color-white);
 }
 
 .material-symbols-outlined {
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .material-symbols-outlined:hover {
@@ -84,7 +84,7 @@ input {
   color: var(--color-white);
 }
 
-.menu1 nav {
+.top-menu nav {
   width: 62.5rem;
   display: flex;
   justify-content: center;
@@ -130,7 +130,7 @@ input {
   color: #ffff00;
 }
 
-.header2 {
+.menu-2 {
   background-color: var(--color-red);
   width: 100vw;
   height: 3.7rem;
@@ -139,7 +139,7 @@ input {
   align-items: center;
 }
 
-.menu2 ul {
+.bottom-menu ul {
   width: 75rem;
   display: flex;
   justify-content: space-around;
@@ -190,7 +190,7 @@ main {
 /* Responsividade */
 
 @media screen and (max-width: 480px) {
-  .menu1 {
+  .top-menu {
     display: none;
   }
 
@@ -204,13 +204,13 @@ main {
     justify-content: space-around;
   }
 
-  .header1 {
+  .menu-1 {
     display: flex;
     padding-right: 1.8rem;
     justify-content: space-between;
   }
 
-  .menu2 {
+  .bottom-menu {
     display: none;
   }
 

@@ -21,7 +21,7 @@ header {
   flex-direction: column;
 }
 
-.header1 {
+.menu-1 {
   height: 3.4rem;
   width: 100vw;
   display: flex;
@@ -55,12 +55,12 @@ header {
   margin-right: 0.3rem;
 }
 
-.menu1 {
+.top-menu {
   display: flex;
   align-items: center;
 }
 
-.menu1 a {
+.top-menu a {
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -68,23 +68,23 @@ header {
   font-size: 1rem;
 }
 
-.menu1 a:hover {
+.top-menu a:hover {
   color: var(--color-white);
 }
 
 .material-symbols-outlined {
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .material-symbols-outlined:hover {
-color: var(--color-white);
+  color: var(--color-white);
 }
 
 .cart:hover {
   color: var(--color-white);
 }
 
-.menu1 nav {
+.top-menu nav {
   width: 62.5rem;
   display: flex;
   justify-content: center;
@@ -130,7 +130,7 @@ color: var(--color-white);
   color: #ffff00;
 }
 
-.header2 {
+.menu-2 {
   background-color: var(--color-red);
   width: 100vw;
   height: 3.7rem;
@@ -139,7 +139,7 @@ color: var(--color-white);
   align-items: center;
 }
 
-.menu2 ul {
+.bottom-menu ul {
   width: 75rem;
   display: flex;
   justify-content: space-around;
@@ -203,8 +203,6 @@ color: var(--color-white);
   cursor: pointer;
   transition: 2s;
 }
-
-
 
 .manual-btn:not(:last-child) {
   margin-right: 2.5rem;
@@ -278,10 +276,40 @@ color: var(--color-white);
   align-items: center;
 }
 
+footer {
+  background-color: #aaaaaa;
+  height: 20rem;
+  display: flex;
+
+ 
+}
+
+footer img {
+  width: 1.5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+.social-media {
+  display: flex;
+  align-items: flex-start;
+  margin: 1rem 3rem;
+}
+
+.contact {
+  margin: 2rem;
+}
+
+.contact h3 {
+  margin-left: 1rem;
+}
+
 /* Responsividade */
 
 @media screen and (max-width: 480px) {
-  .menu1 {
+  .top-menu {
     display: none;
   }
 
@@ -295,14 +323,19 @@ color: var(--color-white);
     justify-content: space-around;
   }
 
-  .header1 {
+  .menu-1 {
     display: flex;
     padding-right: 1.8rem;
     justify-content: space-between;
   }
 
-  .menu2 {
+  .bottom-menu {
     display: none;
+  }
+
+  .material-symbols-outlined {
+    margin-top: 0.3rem;
+    font-size: 1.6rem;
   }
 
   .slider {
